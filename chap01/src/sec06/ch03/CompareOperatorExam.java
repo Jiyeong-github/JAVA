@@ -24,6 +24,9 @@ public class CompareOperatorExam {
 		System.out.println(0.1==(double)0.1f);
 		
 			System.out.println(Double.compare(3.21,3.21f));
+			//f지우면 0됨(=0이면 같다는 소리)
+			
+		//>,>=,<=,==,!= 원시형 숫자타입(include char)
 			
 		System.out.println("3.0==3.0f:"+(3.0==3.0f));
 		System.out.println("3.5==3.5f:"+(3.0==3.0f));
@@ -35,8 +38,8 @@ public class CompareOperatorExam {
 		String str1= new String("A");
 		String str2= str1;
 		
-		System.out.println("str1==str2:"+(str1==str2));//개중요
-		System.out.println("str1.equals(str2):"+str1.equals(str2));
+		System.out.println("str1==str2:"+(str1==str2));//개중요 string에서는 ==비교 X
+		System.out.println("str1.equals(str2):"+str1.equals(str2)); //equals 주는 거 정말 중요!
 		System.out.println("str2.equals(str1):"+str2.equals(str1));
 	}
 }
