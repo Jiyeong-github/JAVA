@@ -1,4 +1,4 @@
-package sec06.exam01;
+package sec06.ch03;
 
 public class ForMisson2 {
 
