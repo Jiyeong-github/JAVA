@@ -9,7 +9,7 @@ public class ArrayMission2 {
 		// 입력과 출력은 분리
 
 		int[]intArr=new int[10];
-		//객체 지향 언어는 업무 분리과 아주 중요~ 입력과 출력을 분리시키기!
+		//객체 지향 언어는 업무 분리가 아주 중요~ 입력과 출력을 분리시키기!
 		
 		for(int i=0;i<intArr.length;i++) {
 			intArr[i]=i+1;
