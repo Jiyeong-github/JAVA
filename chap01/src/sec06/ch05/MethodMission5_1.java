@@ -1,3 +1,4 @@
+package sec06.ch05;
 
 public class MethodMission5_1 {
 // 중복된 소스 최대한 제거

@@ -1,3 +1,4 @@
+package sec06.ch05;
 import java.util.Arrays;
 
 public class MethodMission9 {
