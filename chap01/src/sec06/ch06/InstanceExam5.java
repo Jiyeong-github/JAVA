@@ -9,13 +9,14 @@ public class InstanceExam5 {
 		
 		carArr[0].name ="그랜저";
 		
-		
 
 	}
 
 }
 
 class Car {
+	
 	String name;
 	int price;
+	
 }

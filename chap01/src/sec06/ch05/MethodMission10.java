@@ -15,11 +15,11 @@ public class MethodMission10 {
 //각 방에는 주소값이 다 달라서 독립적인 개체임
 		Drink[] drinkArr = new Drink[5];
 		for (int i = 0; i < drinkArr.length; i++) {
-			Drink drink = new Drink();
+			Drink drink = new Drink();	
+			drinkArr[i] = drink;
+			
 			drink.nm = menuNmArr[i];
 			drink.price = menuPriceArr[i];
-
-			drinkArr[i] = drink;
 //			
 //		drinkArr[0].nm="콜라";
 //		drinkArr[0].price=1000;
