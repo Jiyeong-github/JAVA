@@ -1,7 +1,7 @@
 package practice;
 
 public class OverrideExam {
-//다양성 때문에 오버라이딩 씀!
+//다형성 때문에 오버라이딩 씀!
 	public static void main(String[] args) {
 		NumBox nb1 = new NumBox(10);
 		NumBox nb2 = new NumBox(10);
