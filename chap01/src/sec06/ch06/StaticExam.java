@@ -12,8 +12,9 @@ public class StaticExam {
 		t2.name = "롯데";
 		
 		Toy.name="SOC";
-		System.out.println("t1.name:" + t2.name);
-		System.out.println("t1.name:" + t1.name);
+//		System.out.println("t1.name:" + t2.name);
+//		System.out.println("t1.name:" + t1.name);
+		//무조건 class. 으로 접근하고, 위에 것처럼 하지 마셈
 		System.out.println("Toy.name:" + Toy.name);
 	}
 }
